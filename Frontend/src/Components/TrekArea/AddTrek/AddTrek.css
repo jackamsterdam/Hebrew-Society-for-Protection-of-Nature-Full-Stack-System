@@ -1,0 +1,54 @@
+.AddTrek > form  {
+	width: 450px;
+  margin: auto;
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.AddTrek input, .AddTrek select {
+    width: 100%;
+}
+
+.AddTrek span {
+    color: red;
+    position: absolute;
+    margin: 0 100px;
+}
+.AddTrek select span {
+    color: red;
+    position: absolute;
+    margin: 0 25px;
+}
+
+.AddTrek button {
+    width: 100%;
+}
+
+
+
+/* .AddTrek > form {
+	width: 250px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.AddTrek input, .AddTrek select {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+}
+
+.AddTrek button {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.AddTrek span {
+    color: white;
+    margin: 0 20px;
+    position: absolute;
+} */
+

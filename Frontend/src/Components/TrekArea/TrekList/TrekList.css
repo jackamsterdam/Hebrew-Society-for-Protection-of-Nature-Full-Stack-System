@@ -1,0 +1,44 @@
+
+/* for cards:  */
+/* .TrekList > div {
+    display: flex;
+    justify-content: center;
+} */
+
+
+
+
+
+.TrekList > table  {
+	margin: 10px auto;
+    font-size: x-large;
+    
+  
+}
+
+.TrekList > table, .TrekList th, .TrekList td {
+    border: 1px solid;
+   
+}
+
+.TrekList select {
+    margin-top: 10px;
+}
+
+.TrekList button {
+    background-color: transparent;
+    /* border: none; */
+}
+
+.TrekList button:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+/* doesnt work  */
+.TrekList tr  td:nth-child(4) {
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,597 @@
+
+info	2022-03-22 04:11:28	GET Request to /api/areas
+info	2022-03-22 04:11:37	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:11:46	GET Request to /api/treks-by-area/1
+info	2022-03-22 04:11:54	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:12:07	POST Request to /api/treks
+info	2022-03-22 04:12:07	"trekName" is required
+error	2022-03-22 04:14:11	Unexpected token } in JSON at position 146
+error	2022-03-22 04:16:15	Unexpected token } in JSON at position 146
+info	2022-03-22 04:16:39	GET Request to /api/areas
+info	2022-03-22 04:17:01	GET Request to /api/treks-by-area/1
+info	2022-03-22 04:17:07	GET Request to /api/treks-by-area/2
+info	2022-03-22 04:17:12	GET Request to /api/treks-by-area/3
+error	2022-03-22 04:18:01	Unexpected token } in JSON at position 146
+error	2022-03-22 04:19:15	Unexpected token } in JSON at position 146
+error	2022-03-22 04:19:18	Unexpected token } in JSON at position 146
+error	2022-03-22 04:19:36	Unexpected token } in JSON at position 146
+error	2022-03-22 04:22:56	Unexpected token } in JSON at position 129
+error	2022-03-22 04:22:58	Unexpected token } in JSON at position 129
+info	2022-03-22 04:23:19	POST Request to /api/treks
+error	2022-03-22 04:23:19	ER_BAD_NULL_ERROR: Column 'trekName' cannot be null
+error	2022-03-22 04:24:46	Unexpected token } in JSON at position 132
+error	2022-03-22 04:25:41	Unexpected token } in JSON at position 145
+info	2022-03-22 04:25:48	POST Request to /api/treks
+info	2022-03-22 04:25:53	GET Request to /api/areas
+info	2022-03-22 04:25:56	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:26:07	DELETE Request to /api/treks/5
+info	2022-03-22 04:26:12	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:26:25	POST Request to /api/treks/
+info	2022-03-22 04:26:47	DELETE Request to /api/trek/
+info	2022-03-22 04:26:47	Route not found
+info	2022-03-22 04:26:58	DELETE Request to /api/trek/6
+info	2022-03-22 04:26:58	Route not found
+info	2022-03-22 04:27:07	DELETE Request to /api/treks/6
+info	2022-03-22 04:27:23	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:27:27	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:27:28	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:27:28	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:27:29	GET Request to /api/treks-by-area/3
+info	2022-03-22 04:27:33	POST Request to /api/treks
+error	2022-03-22 04:27:33	ER_BAD_NULL_ERROR: Column 'trekName' cannot be null
+info	2022-03-22 04:27:48	POST Request to /api/treks
+info	2022-03-22 04:30:41	POST Request to /api/treks/
+info	2022-03-22 04:31:00	POST Request to /api/treks/
+info	2022-03-22 04:33:18	GET Request to /api/areas
+info	2022-03-22 04:43:00	DELETE Request to /api/treks/752987439847398
+info	2022-03-22 04:43:00	Resource with id 752987439847398 not found.
+info	2022-03-22 04:43:19	POST Request to /api/treks
+info	2022-03-22 04:43:45	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:48	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:49	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:49	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:49	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:50	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:51	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:51	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:43:51	GET Request to /api/treks-by-area/34654654
+info	2022-03-22 04:44:03	POST Request to /api/treks
+info	2022-03-22 04:44:56	POST Request to /api/treks
+info	2022-03-22 04:45:23	POST Request to /api/treks
+info	2022-03-22 04:45:49	POST Request to /api/treks
+error	2022-03-22 04:45:49	ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`spndb`.`treks`, CONSTRAINT `treks_ibfk_1` FOREIGN KEY (`areaId`) REFERENCES `areas` (`areaId`))
+info	2022-03-22 04:46:59	POST Request to /api/treks
+error	2022-03-22 04:46:59	ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`spndb`.`treks`, CONSTRAINT `treks_ibfk_1` FOREIGN KEY (`areaId`) REFERENCES `areas` (`areaId`))
+info	2022-03-22 04:47:08	POST Request to /api/treks
+info	2022-03-22 04:48:01	POST Request to /api/treks
+info	2022-03-22 05:04:14	POST Request to /api/treks
+info	2022-03-22 05:04:14	"trekId" is not allowed. "trekName" must be a string. "description" must be a string. "priceAdult" must be a number
+info	2022-03-22 07:23:48	POST Request to /api/treks
+info	2022-03-22 07:23:48	"trekId" is not allowed. "trekName" must be a string. "description" must be a string. "priceAdult" must be a number
+info	2022-03-22 07:23:48	POST Request to /api/treks
+info	2022-03-22 07:23:48	"trekId" is not allowed. "trekName" must be a string. "description" must be a string. "priceAdult" must be a number
+info	2022-03-22 07:57:42	GET Request to /api/areas/
+info	2022-03-22 07:57:45	GET Request to /api/areas/
+info	2022-03-22 07:57:47	GET Request to /api/areas/
+info	2022-03-22 07:57:49	GET Request to /api/areas/
+info	2022-03-22 07:57:51	GET Request to /api/areas/
+info	2022-03-22 08:00:45	GET Request to /api/areas/
+info	2022-03-22 08:01:12	GET Request to /api/areas/
+info	2022-03-22 08:01:14	GET Request to /api/areas/
+info	2022-03-22 08:01:16	GET Request to /api/treks-by-area/1
+info	2022-03-22 08:01:17	GET Request to /api/treks-by-area/2
+info	2022-03-22 08:01:19	GET Request to /api/treks-by-area/5
+info	2022-03-22 08:03:13	GET Request to /api/areas/
+info	2022-03-22 08:04:01	GET Request to /api/areas/
+info	2022-03-22 08:04:58	GET Request to /api/areas/
+info	2022-03-22 08:05:00	GET Request to /api/areas/
+info	2022-03-22 08:05:21	GET Request to /api/areas/
+info	2022-03-22 08:05:21	GET Request to /api/areas/
+info	2022-03-22 08:05:42	GET Request to /api/areas/
+info	2022-03-22 08:05:42	GET Request to /api/areas/
+info	2022-03-22 08:05:42	GET Request to /api/areas/
+info	2022-03-22 08:05:42	GET Request to /api/areas/
+info	2022-03-22 08:05:42	GET Request to /api/areas/
+info	2022-03-22 08:05:53	GET Request to /api/areas/
+info	2022-03-22 08:05:56	GET Request to /api/areas/
+info	2022-03-22 08:06:06	GET Request to /api/areas/
+info	2022-03-22 08:07:33	GET Request to /api/areas/
+info	2022-03-22 08:07:34	GET Request to /api/areas/
+info	2022-03-22 08:07:35	GET Request to /api/areas/
+info	2022-03-22 08:07:37	GET Request to /api/areas/
+info	2022-03-22 08:08:36	GET Request to /api/areas/
+info	2022-03-22 08:08:39	GET Request to /api/areas/
+info	2022-03-22 08:08:45	GET Request to /api/areas/
+info	2022-03-22 08:08:47	GET Request to /api/areas/
+info	2022-03-22 08:08:49	GET Request to /api/areas/
+info	2022-03-22 08:09:25	GET Request to /api/areas/
+info	2022-03-22 08:09:35	GET Request to /api/areas/
+info	2022-03-22 08:09:37	GET Request to /api/areas/
+info	2022-03-22 08:09:49	GET Request to /api/areas/
+info	2022-03-22 08:09:52	GET Request to /api/areas/
+info	2022-03-22 08:09:58	GET Request to /api/areas/
+info	2022-03-22 08:09:59	GET Request to /api/areas/
+info	2022-03-22 08:10:03	GET Request to /api/areas/
+info	2022-03-22 08:10:06	GET Request to /api/areas/
+info	2022-03-22 08:10:15	GET Request to /api/areas/
+info	2022-03-22 08:10:19	GET Request to /api/areas/
+info	2022-03-22 08:10:19	GET Request to /api/areas/
+info	2022-03-22 08:10:23	GET Request to /api/areas/
+info	2022-03-22 08:10:27	GET Request to /api/areas/
+info	2022-03-22 08:10:39	GET Request to /api/areas/
+info	2022-03-22 08:10:39	GET Request to /api/areas/
+info	2022-03-22 08:10:45	GET Request to /api/areas/
+info	2022-03-22 08:10:51	GET Request to /api/areas/
+info	2022-03-22 08:12:03	GET Request to /api/treks-by-area/1
+info	2022-03-22 08:12:40	GET Request to /api/areas/
+info	2022-03-22 08:12:46	GET Request to /api/treks-by-area/1
+info	2022-03-22 08:12:48	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:13:20	GET Request to /api/areas/
+info	2022-03-22 08:13:49	GET Request to /api/areas/
+info	2022-03-22 08:14:26	GET Request to /api/areas/
+info	2022-03-22 08:14:51	GET Request to /api/areas/
+info	2022-03-22 08:15:19	GET Request to /api/areas/
+info	2022-03-22 08:15:21	GET Request to /api/areas/
+info	2022-03-22 08:15:29	GET Request to /api/areas/
+info	2022-03-22 08:15:37	GET Request to /api/areas/
+info	2022-03-22 08:17:17	GET Request to /api/treks-by-area/2
+info	2022-03-22 08:17:20	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:19:28	GET Request to /api/areas/
+info	2022-03-22 08:19:31	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:20:39	GET Request to /api/areas/
+info	2022-03-22 08:56:09	GET Request to /api/areas/
+info	2022-03-22 08:56:15	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:57:03	GET Request to /api/areas/
+info	2022-03-22 08:57:09	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:57:24	GET Request to /api/areas/
+info	2022-03-22 08:57:27	GET Request to /api/treks-by-area/1
+info	2022-03-22 08:57:45	GET Request to /api/areas/
+info	2022-03-22 08:58:15	GET Request to /api/areas/
+info	2022-03-22 08:58:24	GET Request to /api/areas/
+info	2022-03-22 08:58:26	GET Request to /api/treks-by-area/1
+info	2022-03-22 08:58:30	GET Request to /api/treks-by-area/3
+info	2022-03-22 08:59:01	GET Request to /api/areas/
+info	2022-03-22 08:59:01	GET Request to /api/areas/
+info	2022-03-22 09:00:16	GET Request to /api/areas/
+info	2022-03-22 09:00:30	GET Request to /api/areas/
+info	2022-03-22 09:00:42	GET Request to /api/areas/
+info	2022-03-22 09:01:49	GET Request to /api/areas/
+info	2022-03-22 09:02:00	GET Request to /api/areas/
+info	2022-03-22 09:02:05	GET Request to /api/areas/
+info	2022-03-22 09:02:05	GET Request to /api/areas/
+info	2022-03-22 09:02:05	GET Request to /api/areas/
+info	2022-03-22 09:02:05	GET Request to /api/areas/
+info	2022-03-22 09:02:16	GET Request to /api/areas/
+info	2022-03-22 09:02:16	GET Request to /api/areas/
+info	2022-03-22 09:02:24	GET Request to /api/areas/
+info	2022-03-22 09:02:29	GET Request to /api/areas/
+info	2022-03-22 09:02:30	GET Request to /api/areas/
+info	2022-03-22 09:02:35	GET Request to /api/areas/
+info	2022-03-22 09:02:41	GET Request to /api/areas/
+info	2022-03-22 09:02:41	GET Request to /api/areas/
+info	2022-03-22 09:02:50	GET Request to /api/areas/
+info	2022-03-22 09:02:53	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:02:58	DELETE Request to /api/treks/8
+info	2022-03-22 09:03:03	GET Request to /api/treks-by-area/1
+info	2022-03-22 09:03:05	GET Request to /api/treks-by-area/2
+info	2022-03-22 09:03:07	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:03:32	GET Request to /api/areas/
+info	2022-03-22 09:03:46	GET Request to /api/areas/
+info	2022-03-22 09:03:48	DELETE Request to /api/treks/9
+info	2022-03-22 09:03:49	GET Request to /api/areas/
+info	2022-03-22 09:03:49	GET Request to /api/areas/
+info	2022-03-22 09:03:49	GET Request to /api/areas/
+info	2022-03-22 09:03:50	GET Request to /api/areas/
+info	2022-03-22 09:03:50	GET Request to /api/areas/
+info	2022-03-22 09:03:50	GET Request to /api/areas/
+info	2022-03-22 09:03:50	GET Request to /api/areas/
+info	2022-03-22 09:03:50	GET Request to /api/areas/
+info	2022-03-22 09:03:50	DELETE Request to /api/treks/11
+info	2022-03-22 09:04:50	GET Request to /api/areas/
+info	2022-03-22 09:05:29	GET Request to /api/areas/
+info	2022-03-22 09:05:32	GET Request to /api/areas/
+info	2022-03-22 09:05:45	GET Request to /api/areas/
+info	2022-03-22 09:05:57	GET Request to /api/areas/
+info	2022-03-22 09:06:08	GET Request to /api/areas/
+info	2022-03-22 09:06:39	GET Request to /api/areas/
+info	2022-03-22 09:06:42	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:06:46	DELETE Request to /api/treks/10
+info	2022-03-22 09:06:51	DELETE Request to /api/treks/17
+info	2022-03-22 09:07:05	GET Request to /api/areas/
+info	2022-03-22 09:07:05	GET Request to /api/areas/
+info	2022-03-22 09:07:08	DELETE Request to /api/treks/12
+info	2022-03-22 09:07:14	GET Request to /api/areas/
+info	2022-03-22 09:07:17	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:07:20	DELETE Request to /api/treks/13
+info	2022-03-22 09:08:28	GET Request to /api/areas/
+info	2022-03-22 09:08:30	GET Request to /api/areas/
+info	2022-03-22 09:08:30	GET Request to /api/areas/
+info	2022-03-22 09:10:14	GET Request to /api/areas/
+info	2022-03-22 09:10:15	GET Request to /api/areas/
+info	2022-03-22 09:10:20	GET Request to /api/areas/
+info	2022-03-22 09:10:22	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:10:24	DELETE Request to /api/treks/18
+info	2022-03-22 09:11:42	GET Request to /api/areas/
+info	2022-03-22 09:11:44	GET Request to /api/areas/
+info	2022-03-22 09:11:45	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:11:47	DELETE Request to /api/treks/19
+info	2022-03-22 09:12:12	GET Request to /api/areas/
+info	2022-03-22 09:12:14	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:12:16	DELETE Request to /api/treks/20
+info	2022-03-22 09:13:58	GET Request to /api/areas/
+info	2022-03-22 09:14:20	GET Request to /api/areas/
+info	2022-03-22 09:14:21	GET Request to /api/areas/
+info	2022-03-22 09:14:32	GET Request to /api/areas/
+info	2022-03-22 09:14:43	GET Request to /api/areas/
+info	2022-03-22 09:14:47	GET Request to /api/areas/
+info	2022-03-22 09:14:49	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:44:35	GET Request to /api/areas/
+info	2022-03-22 09:45:43	GET Request to /api/areas/
+info	2022-03-22 09:45:46	GET Request to /api/areas/
+info	2022-03-22 09:46:59	GET Request to /api/areas/
+info	2022-03-22 09:47:25	GET Request to /api/areas/
+info	2022-03-22 09:47:45	GET Request to /api/areas/
+info	2022-03-22 09:47:59	GET Request to /api/areas/
+info	2022-03-22 09:48:44	GET Request to /api/areas/
+info	2022-03-22 09:49:06	GET Request to /api/areas/
+info	2022-03-22 09:50:28	GET Request to /api/areas/
+info	2022-03-22 09:50:38	GET Request to /api/areas/
+info	2022-03-22 09:50:45	GET Request to /api/areas/
+info	2022-03-22 09:50:57	GET Request to /api/areas/
+info	2022-03-22 09:50:58	GET Request to /api/areas/
+info	2022-03-22 09:50:58	GET Request to /api/areas/
+info	2022-03-22 09:51:09	GET Request to /api/areas/
+info	2022-03-22 09:51:11	GET Request to /api/areas/
+info	2022-03-22 09:51:11	GET Request to /api/areas/
+info	2022-03-22 09:51:18	GET Request to /api/areas/
+info	2022-03-22 09:51:27	GET Request to /api/areas/
+info	2022-03-22 09:51:28	GET Request to /api/areas/
+info	2022-03-22 09:51:35	GET Request to /api/areas/
+info	2022-03-22 09:51:38	GET Request to /api/areas/
+info	2022-03-22 09:51:40	GET Request to /api/areas/
+info	2022-03-22 09:51:42	GET Request to /api/areas/
+info	2022-03-22 09:52:01	GET Request to /api/areas/
+info	2022-03-22 09:52:04	GET Request to /api/areas/
+info	2022-03-22 09:52:08	GET Request to /api/areas/
+info	2022-03-22 09:52:10	GET Request to /api/areas/
+info	2022-03-22 09:52:16	GET Request to /api/areas/
+info	2022-03-22 09:52:17	GET Request to /api/areas/
+info	2022-03-22 09:52:20	GET Request to /api/areas/
+info	2022-03-22 09:52:28	GET Request to /api/areas/
+info	2022-03-22 09:56:11	GET Request to /api/areas/
+info	2022-03-22 09:57:09	GET Request to /api/areas/
+info	2022-03-22 09:57:10	GET Request to /api/areas/
+info	2022-03-22 09:57:43	GET Request to /api/areas/
+info	2022-03-22 09:57:44	GET Request to /api/areas/
+info	2022-03-22 09:57:45	GET Request to /api/areas/
+info	2022-03-22 09:58:14	GET Request to /api/areas/
+info	2022-03-22 09:58:33	GET Request to /api/areas/
+info	2022-03-22 09:58:41	POST Request to /api/treks/
+info	2022-03-22 09:58:42	GET Request to /api/areas/
+info	2022-03-22 09:58:47	GET Request to /api/treks-by-area/3
+info	2022-03-22 09:59:16	DELETE Request to /api/treks/22
+info	2022-03-22 10:00:31	GET Request to /api/areas/
+info	2022-03-22 10:00:52	POST Request to /api/treks/
+info	2022-03-22 10:00:52	"description" length must be less than or equal to 100 characters long
+info	2022-03-22 10:00:59	POST Request to /api/treks/
+info	2022-03-22 10:00:59	GET Request to /api/areas/
+info	2022-03-22 10:01:02	GET Request to /api/treks-by-area/3
+info	2022-03-22 10:01:49	GET Request to /api/areas/
+info	2022-03-22 10:01:51	GET Request to /api/areas/
+info	2022-03-22 10:01:52	GET Request to /api/areas/
+info	2022-03-22 10:02:19	GET Request to /api/areas/
+info	2022-03-22 10:03:51	GET Request to /api/areas/
+info	2022-03-22 10:04:22	GET Request to /api/areas/
+info	2022-03-22 10:04:23	GET Request to /api/areas/
+info	2022-03-22 10:04:33	GET Request to /api/areas/
+info	2022-03-22 10:04:33	GET Request to /api/areas/
+info	2022-03-22 10:04:34	GET Request to /api/areas/
+info	2022-03-22 10:04:34	GET Request to /api/areas/
+info	2022-03-22 10:04:49	GET Request to /api/areas/
+info	2022-03-22 10:04:49	GET Request to /api/areas/
+info	2022-03-22 10:19:36	GET Request to /api/areas/
+info	2022-03-22 10:20:06	GET Request to /api/areas/
+info	2022-03-22 10:20:08	GET Request to /api/treks-by-area/3
+info	2022-03-22 10:21:57	GET Request to /api/areas/
+info	2022-03-22 10:22:08	GET Request to /api/areas/
+info	2022-03-22 10:22:16	GET Request to /api/areas/
+info	2022-03-22 10:22:23	GET Request to /api/treks-by-area/3
+info	2022-03-22 10:23:03	GET Request to /api/areas/
+info	2022-03-22 10:26:53	GET Request to /api/areas/
+info	2022-03-22 10:26:56	GET Request to /api/areas/
+info	2022-03-22 10:27:11	POST Request to /api/treks/
+info	2022-03-22 10:27:12	GET Request to /api/areas/
+info	2022-03-22 10:27:13	GET Request to /api/treks-by-area/3
+info	2022-03-22 10:27:16	DELETE Request to /api/treks/23
+info	2022-03-22 10:27:29	GET Request to /api/areas/
+info	2022-03-22 10:27:59	GET Request to /api/areas/
+info	2022-03-22 10:49:53	GET Request to /api/areas/
+info	2022-03-22 10:52:26	GET Request to /api/areas/
+info	2022-03-22 10:52:42	GET Request to /api/areas/
+info	2022-03-22 11:04:35	GET Request to /api/areas/
+info	2022-03-22 11:04:37	GET Request to /api/treks-by-area/5
+info	2022-03-22 11:04:39	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:04:42	GET Request to /api/treks-by-area/1
+info	2022-03-22 11:04:43	GET Request to /api/treks-by-area/4
+info	2022-03-22 11:42:55	GET Request to /api/areas/
+info	2022-03-22 11:46:49	GET Request to /api/areas/
+info	2022-03-22 11:46:50	GET Request to /api/treks-by-area/2
+info	2022-03-22 11:46:52	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:47:06	GET Request to /api/areas/
+info	2022-03-22 11:48:39	GET Request to /api/areas/
+info	2022-03-22 11:48:42	GET Request to /api/areas/
+info	2022-03-22 11:48:44	GET Request to /api/treks-by-area/2
+info	2022-03-22 11:48:45	GET Request to /api/treks-by-area/1
+info	2022-03-22 11:50:19	GET Request to /api/areas/
+info	2022-03-22 11:50:21	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:50:33	GET Request to /api/areas/
+info	2022-03-22 11:50:38	GET Request to /api/treks-by-area/2
+info	2022-03-22 11:50:40	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:50:51	GET Request to /api/areas/
+info	2022-03-22 11:50:53	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:52:34	GET Request to /api/areas/
+info	2022-03-22 11:52:37	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:53:32	GET Request to /api/areas/
+info	2022-03-22 11:53:35	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:20	DELETE Request to /api/treks/undefined
+error	2022-03-22 11:55:20	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:20	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+info	2022-03-22 11:55:21	DELETE Request to /api/treks/undefined
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+error	2022-03-22 11:55:21	ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'where clause'
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/21
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/21
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:04	Resource with id 16 not found.
+info	2022-03-22 11:56:04	Resource with id 21 not found.
+info	2022-03-22 11:56:04	Resource with id 2 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/24
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/24
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:04	Resource with id 3 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:04	Resource with id 24 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:04	Resource with id 7 not found.
+info	2022-03-22 11:56:04	Resource with id 4 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:04	Resource with id 16 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/24
+info	2022-03-22 11:56:04	Resource with id 2 not found.
+info	2022-03-22 11:56:04	Resource with id 16 not found.
+info	2022-03-22 11:56:04	Resource with id 2 not found.
+info	2022-03-22 11:56:04	Resource with id 3 not found.
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/24
+info	2022-03-22 11:56:04	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:04	Resource with id 3 not found.
+info	2022-03-22 11:56:05	Resource with id 24 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	Resource with id 7 not found.
+info	2022-03-22 11:56:05	Resource with id 24 not found.
+info	2022-03-22 11:56:05	Resource with id 7 not found.
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	Resource with id 16 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:05	Resource with id 16 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/7
+info	2022-03-22 11:56:05	Resource with id 3 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	Resource with id 2 not found.
+info	2022-03-22 11:56:05	Resource with id 2 not found.
+info	2022-03-22 11:56:05	Resource with id 7 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	Resource with id 16 not found.
+info	2022-03-22 11:56:05	Resource with id 16 not found.
+info	2022-03-22 11:56:05	Resource with id 3 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	Resource with id 7 not found.
+info	2022-03-22 11:56:05	Resource with id 2 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/4
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	Resource with id 2 not found.
+info	2022-03-22 11:56:05	Resource with id 3 not found.
+info	2022-03-22 11:56:05	Resource with id 3 not found.
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	Resource with id 4 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/2
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:05	Resource with id 16 not found.
+info	2022-03-22 11:56:05	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:56:06	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:06	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:06	Resource with id 2 not found.
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:56:06	Resource with id 2 not found.
+info	2022-03-22 11:56:06	Resource with id 16 not found.
+info	2022-03-22 11:56:06	DELETE Request to /api/treks/16
+info	2022-03-22 11:56:06	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:06	DELETE Request to /api/treks/3
+info	2022-03-22 11:56:06	Resource with id 16 not found.
+info	2022-03-22 11:56:06	Resource with id 16 not found.
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:56:06	Resource with id 3 not found.
+info	2022-03-22 11:58:10	GET Request to /api/areas/
+info	2022-03-22 11:58:59	GET Request to /api/areas/
+info	2022-03-22 11:59:14	POST Request to /api/treks/
+info	2022-03-22 11:59:14	GET Request to /api/areas/
+info	2022-03-22 11:59:18	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:59:35	GET Request to /api/areas/
+info	2022-03-22 11:59:39	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:59:43	GET Request to /api/treks-by-area/2
+info	2022-03-22 11:59:45	GET Request to /api/treks-by-area/3
+info	2022-03-22 11:59:48	GET Request to /api/areas/
+info	2022-03-22 11:59:51	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:00:13	GET Request to /api/areas/
+info	2022-03-23 12:00:14	GET Request to /api/areas/
+info	2022-03-23 12:00:17	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:00:19	GET Request to /api/treks-by-area/2
+info	2022-03-23 12:00:20	GET Request to /api/treks-by-area/4
+info	2022-03-23 12:00:22	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:02:24	GET Request to /api/areas/
+info	2022-03-23 12:02:29	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:02:41	DELETE Request to /api/treks/28
+info	2022-03-23 12:02:46	GET Request to /api/areas/
+info	2022-03-23 12:03:00	POST Request to /api/treks/
+info	2022-03-23 12:03:01	GET Request to /api/areas/
+info	2022-03-23 12:03:03	GET Request to /api/areas/
+info	2022-03-23 12:03:38	POST Request to /api/treks/
+info	2022-03-23 12:03:38	GET Request to /api/areas/
+info	2022-03-23 12:03:43	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:04:20	GET Request to /api/areas/
+info	2022-03-23 12:04:20	GET Request to /api/areas/
+info	2022-03-23 12:04:32	POST Request to /api/treks/
+info	2022-03-23 12:04:32	GET Request to /api/areas/
+info	2022-03-23 12:04:33	GET Request to /api/areas/
+info	2022-03-23 12:04:42	POST Request to /api/treks/
+info	2022-03-23 12:04:42	GET Request to /api/areas/
+info	2022-03-23 12:04:43	GET Request to /api/areas/
+info	2022-03-23 12:04:55	POST Request to /api/treks/
+info	2022-03-23 12:04:56	GET Request to /api/areas/
+info	2022-03-23 12:04:57	GET Request to /api/areas/
+info	2022-03-23 12:05:06	POST Request to /api/treks/
+info	2022-03-23 12:05:06	GET Request to /api/areas/
+info	2022-03-23 12:05:10	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:05:47	GET Request to /api/areas/
+info	2022-03-23 12:05:52	GET Request to /api/areas/
+info	2022-03-23 12:05:52	GET Request to /api/areas/
+info	2022-03-23 12:05:53	DELETE Request to /api/treks/35
+info	2022-03-23 12:05:54	DELETE Request to /api/treks/33
+info	2022-03-23 12:05:55	DELETE Request to /api/treks/34
+info	2022-03-23 12:05:56	DELETE Request to /api/treks/32
+info	2022-03-23 12:05:57	DELETE Request to /api/treks/30
+info	2022-03-23 12:05:58	DELETE Request to /api/treks/25
+info	2022-03-23 12:05:59	DELETE Request to /api/treks/33
+info	2022-03-23 12:05:59	Resource with id 33 not found.
+info	2022-03-23 12:06:00	DELETE Request to /api/treks/29
+info	2022-03-23 12:06:01	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:01	Resource with id 33 not found.
+info	2022-03-23 12:06:01	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:02	Resource with id 33 not found.
+info	2022-03-23 12:06:02	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:02	Resource with id 33 not found.
+info	2022-03-23 12:06:02	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:02	Resource with id 33 not found.
+info	2022-03-23 12:06:02	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:02	Resource with id 33 not found.
+info	2022-03-23 12:06:02	DELETE Request to /api/treks/33
+info	2022-03-23 12:06:02	Resource with id 33 not found.
+info	2022-03-23 12:06:06	DELETE Request to /api/treks/32
+info	2022-03-23 12:06:06	Resource with id 32 not found.
+info	2022-03-23 12:06:07	DELETE Request to /api/treks/27
+info	2022-03-23 12:06:08	DELETE Request to /api/treks/32
+info	2022-03-23 12:06:08	Resource with id 32 not found.
+info	2022-03-23 12:06:32	GET Request to /api/areas/
+info	2022-03-23 12:06:35	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:06:55	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:06:58	GET Request to /api/areas/
+info	2022-03-23 12:07:05	POST Request to /api/treks/
+info	2022-03-23 12:07:06	GET Request to /api/areas/
+info	2022-03-23 12:07:07	GET Request to /api/areas/
+info	2022-03-23 12:07:15	POST Request to /api/treks/
+info	2022-03-23 12:07:15	GET Request to /api/areas/
+info	2022-03-23 12:07:17	GET Request to /api/areas/
+info	2022-03-23 12:07:24	POST Request to /api/treks/
+info	2022-03-23 12:07:24	GET Request to /api/areas/
+info	2022-03-23 12:07:25	GET Request to /api/areas/
+info	2022-03-23 12:07:34	POST Request to /api/treks/
+info	2022-03-23 12:07:35	GET Request to /api/areas/
+info	2022-03-23 12:07:37	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:07:39	DELETE Request to /api/treks/38
+info	2022-03-23 12:07:41	DELETE Request to /api/treks/36
+info	2022-03-23 12:08:52	GET Request to /api/areas/
+info	2022-03-23 12:09:24	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:09:44	GET Request to /api/areas/
+info	2022-03-23 12:09:48	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:10:01	GET Request to /api/areas/
+info	2022-03-23 12:10:05	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:10:47	GET Request to /api/areas/
+info	2022-03-23 12:10:50	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:11:08	GET Request to /api/areas/
+info	2022-03-23 12:11:13	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:11:40	GET Request to /api/areas/
+info	2022-03-23 12:11:42	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:11:55	GET Request to /api/areas/
+info	2022-03-23 12:11:57	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:12:15	GET Request to /api/areas/
+info	2022-03-23 12:12:17	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:13:14	GET Request to /api/areas/
+info	2022-03-23 12:13:17	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:13:34	GET Request to /api/areas/
+info	2022-03-23 12:13:36	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:22:27	GET Request to /api/areas/
+info	2022-03-23 12:22:29	GET Request to /api/areas/
+info	2022-03-23 12:22:29	GET Request to /api/areas/
+info	2022-03-23 12:22:29	GET Request to /api/areas/
+info	2022-03-23 12:22:41	GET Request to /api/areas/
+info	2022-03-23 12:22:45	GET Request to /api/treks-by-area/2
+info	2022-03-23 12:22:46	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:25:43	GET Request to /api/areas/
+info	2022-03-23 12:25:45	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:26:58	GET Request to /api/areas/
+info	2022-03-23 12:30:17	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:30:18	GET Request to /api/treks-by-area/2
+info	2022-03-23 12:30:24	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:32:09	GET Request to /api/treks-by-area/4
+info	2022-03-23 12:32:11	GET Request to /api/areas/
+info	2022-03-23 12:32:13	GET Request to /api/areas/
+info	2022-03-23 12:32:20	GET Request to /api/areas/
+info	2022-03-23 12:32:22	GET Request to /api/treks-by-area/1
+info	2022-03-23 12:32:25	GET Request to /api/treks-by-area/2
+info	2022-03-23 12:32:26	GET Request to /api/treks-by-area/3
+info	2022-03-23 12:42:08	GET Request to /api/areas/

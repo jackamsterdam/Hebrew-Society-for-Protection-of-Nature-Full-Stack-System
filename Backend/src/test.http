@@ -1,0 +1,51 @@
+###REST CLIENT Extension
+GET http://localhost:3001/api/areas
+Authorization:
+
+###
+GET http://localhost:3001/api/treks-by-area/3
+Authorization:
+###
+POST http://localhost:3001/api/treks
+Content-Type: application/json
+Authorization:
+
+{
+    "areaId": 3,
+    "trekName": "hello",
+    "description": "fdshf",
+    "priceAdult": 35,
+    "priceChild": 35
+ 
+    
+}
+
+
+###
+DELETE http://localhost:3001/api/treks/5
+
+
+
+
+
+###Error checks:
+
+### 404 ErrorModel   Resource with id ____________ not found.
+GET http://localhost:3001/api/treks-by-area/34654654
+###  400 ErrorModel Bad Request  Joi validation error
+POST http://localhost:3001/api/treks
+Content-Type: application/json
+# Authorization: puttoken here 
+
+{
+    "trekId": 32423432432,
+     "areaId": 3,
+    "trekName": 654,
+    "description": 5,
+    "priceAdult":"dfjkdfdfsdsfdsfdsfdsfdsfdsfdsfsdfsdfd",
+    "priceChild": 35
+}
+
+### 404 ErrorModel   Resource with id ____________ not found. 
+DELETE http://localhost:3001/api/treks/752987439847398
+
